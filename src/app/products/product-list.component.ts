@@ -12,9 +12,6 @@ export class ProductListComponent{
     imageWidth: number = 50;
     imageMargin: 2;
     showImage: boolean = false;
-<<<<<<< HEAD
-    listFilter: string = 'cart';
-=======
     _listFilter: string;
     get listFilter():string{
       return this._listFilter;
@@ -25,7 +22,6 @@ export class ProductListComponent{
     }
 
     filteredProducts: IProduct[];
->>>>>>> 98cd702c5e169067dc68ac118cd78c62e1fadd09
     products: IProduct[] = [
         
             {
